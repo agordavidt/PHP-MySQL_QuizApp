@@ -28,7 +28,7 @@
 
     <footer>
         <div class="contianer">
-            <p>@2024</p>
+            <p>Copyright@2024 FRONTROW</p>
         </div>
     </footer>
 </body>

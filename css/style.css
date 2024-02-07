@@ -14,7 +14,7 @@ body{
     margin: 0 auto;
     overflow: auto;
 }
-header, footer {
+header {
     border-bottom: 3px #f4f4f4 solid;
 }
 
@@ -24,6 +24,8 @@ main{
 }
 
 footer{
+    margin-top: 60px;
+    border-top: 3px #f4f4f4 solid;
     text-align: center;
     padding: 2opx;
 }
@@ -34,4 +36,16 @@ a.start{
     background: #f4f4f4;
     border: 1px dotted #000;
     padding: 6px 13px;
+    transition: all 0.3s ease;
+}
+
+a.start:hover{
+    background: #e3e3e3;
+}
+
+.current{
+    padding: 10px;
+    background: #f4f4f4;
+    border: 1px dotted #000;
+    margin: 20px 0 10px 0;
 }
