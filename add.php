@@ -13,22 +13,49 @@
 
     <main>
         <div class="container">
-            <div class="current">Question 1 of 5</div>
-            <p class="question">
-                What does PHP stand for?
-            </p>
+            <h2>Add A Question</h2>       
+            <form method="POST" action="add.php">
+                <p>
+                    <label for="">Question Number: </label>
+                    <input type="number" name="question_number">
+                </p>
 
-            <form method="POST" action="process.php">
-                <ul class="choieces">
-                    <li><input type="radio" name="choice" value="1">PHP: Hypertext Preprocessor</li>
-                    <li><input type="radio" name="choice" value="1">Private Home Page</li>
-                    <li><input type="radio" name="choice" value="1">Personal Home Page</li>
-                    <li><input type="radio" name="choice" value="1">Personal Hypertext Preprocessor</li>
-                </ul>
-                <input type="submit" value="Submit">
+                <p>
+                    <label for="">Question Text: </label>
+                    <input type="number" name="question_number">
+                </p>
+
+                <p>
+                    <label for="">Choice #1: </label>
+                    <input type="text" name="choice1">
+                </p>
+                <p>
+                    <label for="">Choice #2: </label>
+                    <input type="text" name="choice2">
+                </p>
+
+                <p>
+                    <label for="">Choice #3: </label>
+                    <input type="text" name="choice3">
+                </p>
+
+                <p>
+                    <label for="">Choice #4: </label>
+                    <input type="text" name="choice4">
+                </p>
+
+                <p>
+                    <label for="">Correct Choice Number </label>
+                    <input type="number" name="correct_choice">
+                </p>
+                <p>
+                    <input type="submit" name="submit" value="submit" />
+                </p>
 
 
-            </form>         
+
+
+            </form>
             
 
         </div>
