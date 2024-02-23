@@ -8,7 +8,7 @@
 </head>
 <body>
     <header class="container">
-        <h1>PHP Quizzer</h1>
+        <h1>Evaluation 1</h1>
     </header>
 
     <main>
